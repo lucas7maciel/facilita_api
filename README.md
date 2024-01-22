@@ -2,9 +2,8 @@
 # Aplicação CRUD para clientes de uma empresa utilizando Node.js, Express.js e PostgreSQL!
 _Frontend em:_ https://github.com/lucas7maciel/facilita_frontend
 
-//colorar imagens, hostear
+### Neste projeto, é possível:
 
-Neste projeto, é possível:
 _/customers_
 - Receber um JSON com todos os clientes (GET);
 - Adicionar clientes (POST);
