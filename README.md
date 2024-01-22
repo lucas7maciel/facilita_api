@@ -1,6 +1,7 @@
 
 # Aplicação CRUD para clientes de uma empresa utilizando Node.js, Express.js e PostgreSQL!
 _Frontend em:_ https://github.com/lucas7maciel/facilita_frontend
+_Site hosteado em:_ https://facilita-flax.vercel.app/
 
 ### Neste projeto, é possível:
 
@@ -33,8 +34,6 @@ Abra um terminal na pasta criada, acesse o diretório da api e instale as depend
 cd %api_pasta% && npm install
 ```
 
-Em
-
 Em seguida, crie uma pasta .env e defina as variáveis de ambiente necessárias;
 ```
 PORT=seu_port
@@ -49,7 +48,7 @@ PASSW=sua_senha_psql
 PORT=seu_port_psql
 ```
 
-Vá em pool.js e configure a variável 'pool' de acordo com as configurações do seu banco
+Vá em pool.js e configure a variável 'pool' de acordo com as necessidades do seu banco de dados
 ```
 //para um banco hosteado
 const pool = new Pool({
