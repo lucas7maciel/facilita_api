@@ -33,9 +33,37 @@ Abra um terminal na pasta criada, acesse o diretório da api e instale as depend
 cd %api_pasta% && npm install
 ```
 
+Em
+
 Em seguida, crie uma pasta .env e defina as variáveis de ambiente necessárias;
 ```
-PORT=your_port
+PORT=seu_port
+
+POSTGRES_URL=seu_link // caso o banco esteja hosteado
+
+//caso va usar um banco local
+USER=seu_user_psql
+HOST=seu_host_psql
+DB=seu_db_psql
+PASSW=sua_senha_psql
+PORT=seu_port_psql
+```
+
+Vá em pool.js e configure a variável 'pool' de acordo com as configurações do seu banco
+```
+//para um banco hosteado
+const pool = new Pool({
+  connectionString: process.env.POSTGRES_URL + "?sslmode=require",
+})
+
+//para um banco local
+const pool = new Pool({
+  user: process.env.USER,
+  host: process.env.HOST,
+  database: process.env.DB,
+  password: process.env.PASSW,
+  port: process.env.PORT,
+});
 ```
 
 Execute a api
