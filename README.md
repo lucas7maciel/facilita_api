@@ -28,7 +28,7 @@ A DDL do banco de dados está salva em ddl.txt e a aplicação está configurada
 ## COMO EXECUTAR
 Crie uma pasta para salvar o servidor e a interface;
 
-Descompacte este repositório e o repositório do frontend (https://github.com/lucas7maciel/facilita_frontend) nesta pasta e nomeie como preferir, (vou me referir como api e frontend);
+Descompacte este repositório e o repositório do frontend (https://github.com/lucas7maciel/facilita_frontend) nesta pasta e nomeie como preferir, (vou me referir como api_pasta e frontend_pasta);
 
 Abra um terminal na pasta criada, acesse o diretório da api e instale as dependências;
 ```
