@@ -19,8 +19,8 @@ _/path_
 - Traçar uma rota com o caminho mais curto que passe pela casa de todos os clientes (GET);
 
 ## DEPENDÊNCIAS
-- PostgresSQL;
-- Node.js;
+- PostgresSQL (16.1 <=);
+- Node.js (v17.0.0 <=);
 - Express, Body Parser, Cors, Dotend, Express-load, Pg (bibliotecas);
 
 A DDL do banco de dados está salva em ddl.txt e a aplicação está configurada para o Docker (Dockerfile).
