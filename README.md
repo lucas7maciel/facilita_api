@@ -49,6 +49,11 @@ Em seguida, abra outro terminal na pasta criada, acesse o diretório do frontend
 cd %frontend_pasta% && npm install
 ```
 
+Em seguida, crie uma pasta .env e defina as variáveis de ambiente necessárias;
+```
+REACT_APP_SERVER=url_do_seu_servidor_express
+```
+
 Execute o React App
 ```
 npm run start
