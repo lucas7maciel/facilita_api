@@ -2,7 +2,7 @@
 # Aplicação CRUD para clientes de uma empresa utilizando Node.js, Express.js e PostgreSQL!
 _Frontend em:_ https://github.com/lucas7maciel/facilita_frontend
 
-_Site hosteado em:_ https://facilita-flax.vercel.app/
+_API hosteada em:_ https://facilitapi.onrender.com/
 
 ### Neste projeto, é possível:
 
